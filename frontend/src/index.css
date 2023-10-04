@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body{
+    @apply font-sans;
+  }
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.nav {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0); 
+  outline: solid #43A9D5;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  font-size: 2rem;
+  height: 70px;
+  
+}
+
+.site-title {
+  width: 120px;
+  height:20px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.nav ul {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  font-size: 2rem;
+}
+
+/*ANCHOR TAGS*/
+.nav a{
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.nav li:hover {
+  background-color: #43A9D5;
+}/* ACCESSIBILITY FOR COLORBLIND */
+
+.logout {
+  text-align: center;
+  margin-top: 1.00rem;
+  background-color:  #43A9D5;
+  color: #fff;
+  letter-spacing: 0.5px;
+  padding: 0.85em 2.2em;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-radius: 20px;
+  height:50px;
+}
+
+.logout:hover{
+  background-color:  #3187ac;
+}
+.white{
+  color:white;
+}
+
+
+.groceryContainer {
+  max-width: 500px;
+  margin: 50px auto;
+  background: yellow;
+  border-radius: 5px;
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.inputContainer {
+  padding: 10px;
+}
+
+
+p{
+  margin: 0;
+  padding: 20px;
+  flex: 1;
+  font-size: 20px;
+  font-weight: 200;
+  border-left: 1px solid red; 
+}
+
+.inputChecked {
+  background-color: red;
+  text-decoration: line-through; 
+}/* ACCESSIBILITY FOR COLORBLINE */

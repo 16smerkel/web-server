@@ -1,0 +1,38 @@
+[
+    {
+        "name": "milk",
+        "store": "Walmart",
+        "cost": 4.99,
+        "id": 1
+    },
+    {
+        "name": "spoiled milk",
+        "store": "Publix",
+        "cost": 6.99,
+        "id": 2
+    },
+    {
+        "name": "honey from endangered bees",
+        "store": "Walmart",
+        "cost": 12.00,
+        "id": 3
+    },
+    {
+        "name": "baking soda",
+        "store": "CVS",
+        "cost": 4.50,
+        "id": 4
+    },
+    {
+        "name": "baked soda",
+        "store": "Walmart",
+        "cost": 4.99,
+        "id": 5
+    },
+    {
+        "name": "will bake soda",
+        "store": "Publix",
+        "cost": 6.99,
+        "id": 6
+    }
+]
